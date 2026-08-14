@@ -1,0 +1,665 @@
+--------- beginning of events
+08-14 17:46:52.305 21414 21414 I wm_on_create_called: [169689572,com.termux.app.TermuxActivity,performCreate]
+08-14 17:46:52.316 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:46:52.328 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:46:52.371 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:46:55.368 21512 21512 I auditd  : type=1400 audit(0.0:494607): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:46:55.372 21512 21512 I auditd  : type=1400 audit(0.0:494608): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:46:55.372 21512 21512 I auditd  : type=1400 audit(0.0:494609): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:46:55.372 21512 21512 I auditd  : type=1400 audit(0.0:494610): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:46:55.372 21512 21512 I auditd  : type=1400 audit(0.0:494611): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:46:55.372 21512 21512 I auditd  : type=1400 audit(0.0:494612): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:47:00.847 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:47:00.865 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:47:01.330 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 17:47:02.128 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 17:47:02.150 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:47:02.161 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:47:02.161 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 17:47:11.343 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:47:11.356 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:47:11.769 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 17:51:07.605 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 17:51:07.627 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:51:07.642 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:51:07.642 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 17:51:13.162 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:51:13.193 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:51:13.210 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 17:51:24.988 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 17:51:25.000 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:51:25.013 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:51:25.013 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 17:51:29.852 23064 23064 I auditd  : type=1400 audit(0.0:508118): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:51:29.860 23064 23064 I auditd  : type=1400 audit(0.0:508119): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:51:29.860 23064 23064 I auditd  : type=1400 audit(0.0:508120): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:51:29.860 23064 23064 I auditd  : type=1400 audit(0.0:508121): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:51:29.860 23064 23064 I auditd  : type=1400 audit(0.0:508122): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:51:29.860 23064 23064 I auditd  : type=1400 audit(0.0:508123): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:51:29.864 23064 23064 I auditd  : type=1400 audit(0.0:508124): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/lib/libtermux-exec.so" dev="dm-44" ino=3331106 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:51:29.920 23065 23065 I auditd  : type=1400 audit(0.0:508125): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:51:29.920 23066 23066 I auditd  : type=1400 audit(0.0:508126): avc: granted { execute } for comm="linker64" name="grep" dev="dm-44" ino=3333651 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:51:33.131 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:51:33.159 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:51:33.190 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 17:58:52.771 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 17:58:52.791 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:58:52.804 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:58:52.805 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 17:59:07.266 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:59:07.308 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:59:07.332 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 17:59:45.795 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 17:59:45.802 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 17:59:45.819 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 17:59:45.819 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 17:59:47.872 24393 24393 I auditd  : type=1400 audit(0.0:529764): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:59:47.876 24393 24393 I auditd  : type=1400 audit(0.0:529765): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 17:59:47.876 24393 24393 I auditd  : type=1400 audit(0.0:529766): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:59:47.876 24393 24393 I auditd  : type=1400 audit(0.0:529767): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 17:59:51.472 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 17:59:51.501 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 17:59:51.543 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:00:21.846 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:00:21.853 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:00:21.868 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:00:21.868 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:00:24.224 24458 24458 I auditd  : type=1400 audit(0.0:530045): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:00:24.224 24458 24458 I auditd  : type=1400 audit(0.0:530046): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:00:24.228 24458 24458 I auditd  : type=1400 audit(0.0:530047): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:24.228 24458 24458 I auditd  : type=1400 audit(0.0:530048): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:24.228 24458 24458 I auditd  : type=1400 audit(0.0:530049): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:24.228 24458 24458 I auditd  : type=1400 audit(0.0:530050): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:26.279 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:00:26.317 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:00:26.326 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:00:32.669 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:00:32.673 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:00:32.683 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:00:32.683 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:00:35.540 24493 24493 I auditd  : type=1400 audit(0.0:530233): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:00:35.544 24493 24493 I auditd  : type=1400 audit(0.0:530234): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:00:35.544 24493 24493 I auditd  : type=1400 audit(0.0:530235): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:35.544 24493 24493 I auditd  : type=1400 audit(0.0:530236): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:35.544 24493 24493 I auditd  : type=1400 audit(0.0:530237): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:35.544 24493 24493 I auditd  : type=1400 audit(0.0:530238): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:00:36.616 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:00:36.661 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:00:36.767 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:00:45.358 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:00:45.362 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:00:45.375 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:00:45.375 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:00:50.505 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:00:50.531 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:00:50.573 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:01:19.052 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:01:19.064 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:01:19.087 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:01:19.087 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:01:20.944 24593 24593 I auditd  : type=1400 audit(0.0:530655): avc: granted { execute } for comm="linker64" name="coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:20.948 24593 24593 I auditd  : type=1400 audit(0.0:530656): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:20.948 24593 24593 I auditd  : type=1400 audit(0.0:530657): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:20.948 24593 24593 I auditd  : type=1400 audit(0.0:530658): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:22.520 24594 24594 I auditd  : type=1400 audit(0.0:530667): avc: granted { execute } for comm="linker64" name="coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:22.524 24594 24594 I auditd  : type=1400 audit(0.0:530668): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:22.524 24594 24594 I auditd  : type=1400 audit(0.0:530669): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:22.524 24594 24594 I auditd  : type=1400 audit(0.0:530670): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:22.524 24594 24594 I auditd  : type=1400 audit(0.0:530671): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:23.566 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:01:23.595 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:01:23.636 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:01:32.089 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:01:32.096 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:01:32.112 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:01:32.112 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:01:34.916 24628 24628 I auditd  : type=1400 audit(0.0:530873): avc: granted { execute } for comm="linker64" name="coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:34.920 24628 24628 I auditd  : type=1400 audit(0.0:530874): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:34.920 24628 24628 I auditd  : type=1400 audit(0.0:530875): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:34.920 24628 24628 I auditd  : type=1400 audit(0.0:530876): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:34.920 24628 24628 I auditd  : type=1400 audit(0.0:530877): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:36.249 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:01:36.289 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:01:36.297 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:01:40.383 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:01:40.406 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:01:40.418 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:01:40.418 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:01:42.188 24662 24662 I auditd  : type=1400 audit(0.0:531068): avc: granted { execute } for comm="linker64" name="termux-setup-storage" dev="dm-44" ino=3333993 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:42.192 24662 24662 I auditd  : type=1400 audit(0.0:531069): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/bash" dev="dm-44" ino=3330760 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:01:42.192 24662 24662 I auditd  : type=1400 audit(0.0:531070): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:42.192 24662 24662 I auditd  : type=1400 audit(0.0:531071): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:01:49.471 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:01:49.499 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:01:49.551 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:01:59.554 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:01:59.581 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:01:59.600 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:01:59.600 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:02:13.510 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:02:13.539 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:02:13.591 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:02:23.234 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:02:23.255 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:02:23.265 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:02:23.265 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:02:25.172 24963 24963 I auditd  : type=1400 audit(0.0:531643): avc: granted { execute } for comm="linker64" name="coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:02:25.176 24963 24963 I auditd  : type=1400 audit(0.0:531644): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:02:25.176 24963 24963 I auditd  : type=1400 audit(0.0:531645): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:02:25.284 24963 24963 I auditd  : type=1400 audit(0.0:531655): avc: denied { ioctl } for comm="/data/data/com." path="/storage/emulated/0/Download/apollon_crash.txt" dev="fuse" ino=3350858 ioctlcmd=0x9409 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:fuse:s0 tclass=file permissive=0 app=com.termux
+08-14 18:02:27.268 25092 25092 I auditd  : type=1400 audit(0.0:531664): avc: granted { execute } for comm="linker64" name="coreutils" dev="dm-44" ino=3333978 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:02:29.435 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:02:29.465 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:02:29.500 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:02:42.362 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:02:42.369 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:02:42.385 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:02:42.385 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:02:43.734 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:02:43.763 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:02:43.792 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:02:55.428 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:02:55.437 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:02:55.456 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:02:55.456 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:02:57.740 25300 25300 I auditd  : type=1400 audit(0.0:532058): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:02:57.744 25300 25300 I auditd  : type=1400 audit(0.0:532059): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:02:57.744 25300 25300 I auditd  : type=1400 audit(0.0:532060): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:02:57.744 25300 25300 I auditd  : type=1400 audit(0.0:532061): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:02:57.744 25300 25300 I auditd  : type=1400 audit(0.0:532062): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:03:01.463 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:03:01.488 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:03:01.513 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:03:05.987 21414 21414 I wm_on_restart_called: [169689572,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:03:05.995 21414 21414 I wm_on_start_called: [169689572,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:03:06.014 21414 21414 I wm_on_resume_called: [169689572,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:03:06.014 21414 21414 I wm_on_top_resumed_gained_called: [169689572,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:03:08.246 21414 21414 I wm_on_top_resumed_lost_called: [169689572,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:03:08.253 21414 21414 I wm_on_paused_called: [169689572,com.termux.app.TermuxActivity,performPause]
+08-14 18:03:08.757 21414 21414 I wm_on_stop_called: [169689572,com.termux.app.TermuxActivity,LIFECYCLER_STOP_ACTIVITY]
+08-14 18:03:08.777 21414 21414 I wm_on_destroy_called: [169689572,com.termux.app.TermuxActivity,performDestroy]
+08-14 18:03:15.357 21414 21414 I wm_on_create_called: [147082016,com.termux.app.TermuxActivity,performCreate]
+08-14 18:03:15.361 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:03:15.367 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:03:15.380 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:03:17.660 25446 25446 I auditd  : type=1400 audit(0.0:532511): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:03:17.664 25446 25446 I auditd  : type=1400 audit(0.0:532512): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:03:17.664 25446 25446 I auditd  : type=1400 audit(0.0:532513): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:03:17.664 25446 25446 I auditd  : type=1400 audit(0.0:532514): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:03:17.664 25446 25446 I auditd  : type=1400 audit(0.0:532515): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:03:21.514 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:03:21.536 21414 21414 I wm_on_paused_called: [147082016,com.termux.app.TermuxActivity,performPause]
+08-14 18:03:21.565 21414 21414 I wm_on_stop_called: [147082016,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:03:49.515 21414 21414 I wm_on_restart_called: [147082016,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:03:49.522 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:03:49.539 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:03:49.539 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:03:52.802 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:03:52.832 21414 21414 I wm_on_paused_called: [147082016,com.termux.app.TermuxActivity,performPause]
+--------- beginning of main
+08-14 18:03:52.837 21414 21432 I mali_gralloc: unregister: id=0x2bb00016cf4, base=0x0, importpid=21414
+08-14 18:03:52.838 21414 21432 I mali_gralloc: unregister: id=0x2bb00016cf5, base=0x0, importpid=21414
+08-14 18:03:52.838 21414 21432 I mali_gralloc: unregister: id=0x2bb00016cf6, base=0x0, importpid=21414
+08-14 18:03:52.852 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
+08-14 18:03:52.853 21414 21414 I mali_gralloc: unregister: id=0x2bb00016cf3, base=0x0, importpid=21414
+08-14 18:03:52.866 21414 21414 D TranFlingManagerImpl: onOverScrollerFinish()
+08-14 18:03:52.866 21414 21414 I wm_on_stop_called: [147082016,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:03:52.876 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
+08-14 18:03:54.560 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+08-14 18:03:55.560 21414 21467 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c46ba8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:03:55.560 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-14 18:04:01.870 21414 21414 I wm_on_restart_called: [147082016,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:04:01.883 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+--------- beginning of system
+08-14 18:04:01.890 21414 21414 D TranActivityAppturboImpl: onResumeHork
+08-14 18:04:01.901 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:04:01.901 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:04:01.914 21414 25608 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-14 18:04:01.917 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 1
+08-14 18:04:01.917 21414 25609 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-14 18:04:01.918 21414 25609 I CCodec  : setting up 'default' as default (vendor) store
+08-14 18:04:01.923 21414 21468 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c46ba8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:04:01.923 21414 21468 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007177c46ba8 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-14 18:04:01.926 21414 25609 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-14 18:04:01.926 21414 25609 D CCodecConfig: read media type: audio/vorbis
+08-14 18:04:01.927 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:01.930 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-14 18:04:01.932 21414 25611 I mali_gralloc: register: id=0x2bb00016d26, importpid=-1
+08-14 18:04:01.933 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-14 18:04:01.934 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-14 18:04:01.934 21414 25611 I mali_gralloc: register: id=0x2bb00016d27, importpid=-1
+08-14 18:04:01.935 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-14 18:04:01.935 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-14 18:04:01.936 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-14 18:04:01.936 21414 25609 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-14 18:04:01.937 21414 25611 I mali_gralloc: register: id=0x2bb00016d28, importpid=-1
+08-14 18:04:01.939 21414 25609 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:01.939 21414 25611 I mali_gralloc: register: id=0x2bb00016d29, importpid=-1
+08-14 18:04:01.939 21414 25609 D CCodecConfig: c2 config diff is Dict {
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-14 18:04:01.939 21414 25609 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-14 18:04:01.939 21414 25609 D CCodecConfig: }
+08-14 18:04:01.940 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 2
+08-14 18:04:01.940 21414 25609 D MediaCodec: flushMediametrics
+08-14 18:04:01.940 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 3
+08-14 18:04:01.940 21414 25609 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-14 18:04:01.940 21414 25609 D CCodecConfig: no c2 equivalents for durationUs
+08-14 18:04:01.940 21414 25609 D CCodecConfig: no c2 equivalents for track-id
+08-14 18:04:01.940 21414 25609 D CCodecConfig: no c2 equivalents for csd-1
+08-14 18:04:01.941 21414 25609 D CCodecConfig: no c2 equivalents for flags
+08-14 18:04:01.941 21414 25609 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-14 18:04:01.941 21414 25609 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-14 18:04:01.942 21414 25609 W Codec2Client: query -- param skipped: index = 1107298332.
+08-14 18:04:01.943 21414 25609 D CCodec  : encoding statistics level = 0
+08-14 18:04:01.943 21414 25609 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t bitrate = 96000
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t max-input-size = 32768
+08-14 18:04:01.943 21414 25609 D CCodec  :   string mime = "audio/vorbis"
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:01.943 21414 25609 D CCodec  : }
+08-14 18:04:01.943 21414 25609 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:01.943 21414 25609 D CCodec  :   string mime = "audio/raw"
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t channel-mask = 1
+08-14 18:04:01.943 21414 25609 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-14 18:04:01.943 21414 25609 D CCodec  : }
+08-14 18:04:01.943 21414 25609 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:01.943 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 4
+08-14 18:04:01.943 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 5
+08-14 18:04:01.943 21414 25609 D CCodec  : [video-detector] start
+08-14 18:04:01.945 21414 25609 W Codec2Client: query -- param skipped: index = 1342179345.
+08-14 18:04:01.945 21414 25609 W Codec2Client: query -- param skipped: index = 2415921170.
+08-14 18:04:01.947 21414 25609 D CCodecBufferChannel: [c2.android.vorbis.decoder#283] Created input block pool with allocatorID 16 => poolID 36 - OK (0)
+08-14 18:04:01.949 21414 25609 I CCodecBufferChannel: [c2.android.vorbis.decoder#283] Created output block pool with allocatorID 16 => poolID 864 - OK
+08-14 18:04:01.949 21414 25609 D CCodecBufferChannel: [c2.android.vorbis.decoder#283] Configured output block pool ids 864 => OK
+08-14 18:04:01.952 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 6
+08-14 18:04:01.975 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 9
+08-14 18:04:01.976 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 2
+08-14 18:04:01.976 21414 25608 D MediaCodec: [0xb4000071e80e5d30] [c2.android.vorbis.decoder] release,in state:2
+08-14 18:04:01.976 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 10
+08-14 18:04:01.983 21414 25609 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-14 18:04:01.984 21414 25609 D MediaCodec: [0xb4000071e80e5d30] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+08-14 18:04:01.984 21414 25609 D MediaCodec: [0xb4000071e80e5d30] setState: 0
+08-14 18:04:01.985 21414 25608 D MediaCodec: ~MediaCodec [0xb4000071e80e5d30]
+08-14 18:04:01.985 21414 25608 D MediaCodec: flushMediametrics
+08-14 18:04:02.089 21414 21414 D InsetsController: show(ime(), fromIme=true)
+08-14 18:04:02.756 21414 21414 D TranFlingManagerImpl: onOverScrollerFinish()
+08-14 18:04:02.770 21414 21414 D VRI[PopupWindow:1055a80]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:02.773 21414 25614 I mali_gralloc: register: id=0x2bb00016d2b, importpid=-1
+08-14 18:04:02.773 21414 25614 I mali_gralloc: register: id=0x2bb00016d2c, importpid=-1
+08-14 18:04:02.774 21414 25614 I mali_gralloc: register: id=0x2bb00016d2d, importpid=-1
+08-14 18:04:02.775 21414 25614 I mali_gralloc: register: id=0x2bb00016d2e, importpid=-1
+08-14 18:04:02.781 21414 21432 W Parcel  : Expecting binder but got null!
+08-14 18:04:02.794 21414 21414 D VRI[PopupWindow:ec3245f]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:02.799 21414 25615 I mali_gralloc: register: id=0x2bb00016d2f, importpid=-1
+08-14 18:04:02.799 21414 25615 I mali_gralloc: register: id=0x2bb00016d30, importpid=-1
+08-14 18:04:02.800 21414 25615 I mali_gralloc: register: id=0x2bb00016d31, importpid=-1
+08-14 18:04:02.801 21414 25615 I mali_gralloc: register: id=0x2bb00016d32, importpid=-1
+08-14 18:04:02.805 21414 21432 W Parcel  : Expecting binder but got null!
+08-14 18:04:02.821 21414 21414 D VRI[PopupWindow:42b1744]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:02.824 21414 25616 I mali_gralloc: register: id=0x2bb00016d33, importpid=-1
+08-14 18:04:02.825 21414 25616 I mali_gralloc: register: id=0x2bb00016d34, importpid=-1
+08-14 18:04:02.826 21414 25616 I mali_gralloc: register: id=0x2bb00016d35, importpid=-1
+08-14 18:04:02.826 21414 25616 I mali_gralloc: register: id=0x2bb00016d36, importpid=-1
+08-14 18:04:02.837 21414 21432 W Parcel  : Expecting binder but got null!
+08-14 18:04:02.847 21414 21414 D VRI[PopupWindow:1055a80]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=1
+08-14 18:04:02.863 21414 21414 D VRI[PopupWindow:ec3245f]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=0
+08-14 18:04:03.413 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d2b, base=0x0, importpid=21414
+08-14 18:04:03.413 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d2c, base=0x0, importpid=21414
+08-14 18:04:03.414 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d2e, base=0x0, importpid=21414
+08-14 18:04:03.415 21414 21414 I mali_gralloc: unregister: id=0x2bb00016d2d, base=0x0, importpid=21414
+08-14 18:04:03.423 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d30, base=0x0, importpid=21414
+08-14 18:04:03.423 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d2f, base=0x0, importpid=21414
+08-14 18:04:03.424 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d32, base=0x0, importpid=21414
+08-14 18:04:03.425 21414 21414 I mali_gralloc: unregister: id=0x2bb00016d31, base=0x0, importpid=21414
+08-14 18:04:03.695 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d35, base=0x0, importpid=21414
+08-14 18:04:03.697 21414 22951 I mali_gralloc: unregister: id=0x2bb00016d34, base=0x0, importpid=21414
+08-14 18:04:03.710 21414 22951 I mali_gralloc: unregister: id=0x2bb00016d33, base=0x0, importpid=21414
+08-14 18:04:03.711 21414 22951 I mali_gralloc: unregister: id=0x2bb00016d36, base=0x0, importpid=21414
+08-14 18:04:03.932 25618 25618 I auditd  : type=1400 audit(0.0:532906): avc: granted { execute } for comm="linker64" name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:04:03.932 25618 25618 W linker64: type=1400 audit(0.0:532906): avc: granted { execute } for name="logcat" dev="dm-44" ino=3334118 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:04:03.932 25618 25618 I auditd  : type=1400 audit(0.0:532907): avc: granted { execute } for comm="linker64" path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:04:03.932 25618 25618 W linker64: type=1400 audit(0.0:532907): avc: granted { execute } for path="/data/data/com.termux/files/usr/bin/dash" dev="dm-44" ino=3334091 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c249,c256,c512,c768 tclass=file app=com.termux
+08-14 18:04:03.936 25618 25618 I auditd  : type=1400 audit(0.0:532908): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:04:03.936 25618 25618 W linker64: type=1400 audit(0.0:532908): avc: denied { search } for name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:04:03.936 25618 25618 I auditd  : type=1400 audit(0.0:532909): avc: denied { search } for comm="linker64" name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:04:03.936 25618 25618 W linker64: type=1400 audit(0.0:532909): avc: denied { search } for name="tests" dev="dm-44" ino=111 scontext=u:r:untrusted_app:s0:c249,c256,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux
+08-14 18:04:05.762 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:05.778 21414 21414 I wm_on_paused_called: [147082016,com.termux.app.TermuxActivity,performPause]
+08-14 18:04:06.187 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d26, base=0x0, importpid=21414
+08-14 18:04:06.188 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d28, base=0x0, importpid=21414
+08-14 18:04:06.188 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d29, base=0x0, importpid=21414
+08-14 18:04:06.195 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
+08-14 18:04:06.197 21414 21414 I mali_gralloc: unregister: id=0x2bb00016d27, base=0x0, importpid=21414
+08-14 18:04:06.204 21414 21414 D TranFlingManagerImpl: onOverScrollerFinish()
+08-14 18:04:06.205 21414 21414 I wm_on_stop_called: [147082016,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:04:06.225 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
+08-14 18:04:06.925 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+08-14 18:04:07.925 21414 21467 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c46ba8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:04:07.925 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-14 18:04:47.428 21414 21414 I wm_on_restart_called: [147082016,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:04:47.439 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:04:47.444 21414 21414 D TranActivityAppturboImpl: onResumeHork
+08-14 18:04:47.452 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:04:47.452 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:04:47.463 21414 25708 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-14 18:04:47.465 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 1
+08-14 18:04:47.466 21414 25710 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-14 18:04:47.467 21414 25710 I CCodec  : setting up 'default' as default (vendor) store
+08-14 18:04:47.472 21414 21468 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c46ba8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:04:47.473 21414 21468 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007177c46ba8 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-14 18:04:47.473 21414 25710 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-14 18:04:47.474 21414 25710 D CCodecConfig: read media type: audio/vorbis
+08-14 18:04:47.476 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-14 18:04:47.477 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-14 18:04:47.477 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-14 18:04:47.478 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-14 18:04:47.478 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-14 18:04:47.478 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-14 18:04:47.478 21414 25710 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-14 18:04:47.479 21414 25710 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:47.480 21414 25710 D CCodecConfig: c2 config diff is Dict {
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-14 18:04:47.480 21414 25710 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-14 18:04:47.480 21414 25710 D CCodecConfig: }
+08-14 18:04:47.480 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 2
+08-14 18:04:47.480 21414 25710 D MediaCodec: flushMediametrics
+08-14 18:04:47.480 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 3
+08-14 18:04:47.480 21414 25710 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-14 18:04:47.480 21414 25710 D CCodecConfig: no c2 equivalents for durationUs
+08-14 18:04:47.480 21414 25710 D CCodecConfig: no c2 equivalents for track-id
+08-14 18:04:47.480 21414 25710 D CCodecConfig: no c2 equivalents for csd-1
+08-14 18:04:47.480 21414 25710 D CCodecConfig: no c2 equivalents for flags
+08-14 18:04:47.483 21414 25710 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-14 18:04:47.483 21414 25710 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-14 18:04:47.483 21414 25710 W Codec2Client: query -- param skipped: index = 1107298332.
+08-14 18:04:47.483 21414 25710 D CCodec  : encoding statistics level = 0
+08-14 18:04:47.483 21414 25710 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t bitrate = 96000
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t max-input-size = 32768
+08-14 18:04:47.483 21414 25710 D CCodec  :   string mime = "audio/vorbis"
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:47.483 21414 25710 D CCodec  : }
+08-14 18:04:47.483 21414 25710 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:47.483 21414 25710 D CCodec  :   string mime = "audio/raw"
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t channel-mask = 1
+08-14 18:04:47.483 21414 25710 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-14 18:04:47.483 21414 25710 D CCodec  : }
+08-14 18:04:47.483 21414 25710 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:47.483 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 4
+08-14 18:04:47.484 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 5
+08-14 18:04:47.484 21414 25710 D CCodec  : [video-detector] start
+08-14 18:04:47.484 21414 25710 W Codec2Client: query -- param skipped: index = 1342179345.
+08-14 18:04:47.484 21414 25710 W Codec2Client: query -- param skipped: index = 2415921170.
+08-14 18:04:47.485 21414 25710 D CCodecBufferChannel: [c2.android.vorbis.decoder#215] Created input block pool with allocatorID 16 => poolID 37 - OK (0)
+08-14 18:04:47.487 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:47.488 21414 25710 I CCodecBufferChannel: [c2.android.vorbis.decoder#215] Created output block pool with allocatorID 16 => poolID 866 - OK
+08-14 18:04:47.488 21414 25710 D CCodecBufferChannel: [c2.android.vorbis.decoder#215] Configured output block pool ids 866 => OK
+08-14 18:04:47.492 21414 25712 I mali_gralloc: register: id=0x2bb00016d68, importpid=-1
+08-14 18:04:47.492 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 6
+08-14 18:04:47.493 21414 25712 I mali_gralloc: register: id=0x2bb00016d69, importpid=-1
+08-14 18:04:47.494 21414 25712 I mali_gralloc: register: id=0x2bb00016d6a, importpid=-1
+08-14 18:04:47.496 21414 25712 I mali_gralloc: register: id=0x2bb00016d6b, importpid=-1
+08-14 18:04:47.536 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 9
+08-14 18:04:47.537 21414 25710 D CCodecBufferChannel: [c2.android.vorbis.decoder#215] MediaCodec discarded an unknown buffer
+08-14 18:04:47.537 21414 25710 D CCodecBufferChannel: [c2.android.vorbis.decoder#215] MediaCodec discarded an unknown buffer
+08-14 18:04:47.537 21414 25710 D CCodecBufferChannel: [c2.android.vorbis.decoder#215] MediaCodec discarded an unknown buffer
+08-14 18:04:47.539 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 2
+08-14 18:04:47.539 21414 25708 D MediaCodec: [0xb4000071e817c690] [c2.android.vorbis.decoder] release,in state:2
+08-14 18:04:47.539 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 10
+08-14 18:04:47.545 21414 25710 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-14 18:04:47.545 21414 25710 D MediaCodec: [0xb4000071e817c690] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+08-14 18:04:47.545 21414 25710 D MediaCodec: [0xb4000071e817c690] setState: 0
+08-14 18:04:47.546 21414 25708 D MediaCodec: ~MediaCodec [0xb4000071e817c690]
+08-14 18:04:47.548 21414 25708 D MediaCodec: flushMediametrics
+08-14 18:04:47.692 21414 21414 D InsetsController: show(ime(), fromIme=true)
+08-14 18:04:49.721 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:49.757 21414 21414 I wm_on_paused_called: [147082016,com.termux.app.TermuxActivity,performPause]
+08-14 18:04:49.762 21414 21414 D TranFlingManagerImpl: onOverScrollerFinish()
+08-14 18:04:49.762 21414 21414 I wm_on_stop_called: [147082016,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:04:49.768 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d69, base=0x0, importpid=21414
+08-14 18:04:49.768 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d6a, base=0x0, importpid=21414
+08-14 18:04:49.768 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d6b, base=0x0, importpid=21414
+08-14 18:04:49.770 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d68, base=0x0, importpid=21414
+08-14 18:04:49.781 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
+08-14 18:04:51.117 21414 21414 I wm_on_restart_called: [147082016,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:04:51.125 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:04:51.131 21414 21414 D TranActivityAppturboImpl: onResumeHork
+08-14 18:04:51.143 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:04:51.143 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:04:51.157 21414 25730 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-14 18:04:51.159 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 1
+08-14 18:04:51.159 21414 25733 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-14 18:04:51.163 21414 25733 I CCodec  : setting up 'default' as default (vendor) store
+08-14 18:04:51.167 21414 25733 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-14 18:04:51.168 21414 25733 D CCodecConfig: read media type: audio/vorbis
+08-14 18:04:51.172 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
+08-14 18:04:51.178 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-14 18:04:51.180 21414 25750 I mali_gralloc: register: id=0x2bb00016d7c, importpid=-1
+08-14 18:04:51.180 21414 25750 I mali_gralloc: register: id=0x2bb00016d7d, importpid=-1
+08-14 18:04:51.181 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-14 18:04:51.181 21414 25750 I mali_gralloc: register: id=0x2bb00016d7e, importpid=-1
+08-14 18:04:51.181 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-14 18:04:51.182 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-14 18:04:51.182 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-14 18:04:51.182 21414 25750 I mali_gralloc: register: id=0x2bb00016d7f, importpid=-1
+08-14 18:04:51.182 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-14 18:04:51.182 21414 25733 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-14 18:04:51.185 21414 25733 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:51.185 21414 25733 D CCodecConfig: c2 config diff is Dict {
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-14 18:04:51.185 21414 25733 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-14 18:04:51.185 21414 25733 D CCodecConfig: }
+08-14 18:04:51.185 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 2
+08-14 18:04:51.185 21414 25733 D MediaCodec: flushMediametrics
+08-14 18:04:51.186 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 3
+08-14 18:04:51.186 21414 25733 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-14 18:04:51.186 21414 25733 D CCodecConfig: no c2 equivalents for durationUs
+08-14 18:04:51.186 21414 25733 D CCodecConfig: no c2 equivalents for track-id
+08-14 18:04:51.186 21414 25733 D CCodecConfig: no c2 equivalents for csd-1
+08-14 18:04:51.186 21414 25733 D CCodecConfig: no c2 equivalents for flags
+08-14 18:04:51.190 21414 25733 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-14 18:04:51.190 21414 25733 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-14 18:04:51.190 21414 25733 W Codec2Client: query -- param skipped: index = 1107298332.
+08-14 18:04:51.190 21414 25733 D CCodec  : encoding statistics level = 0
+08-14 18:04:51.190 21414 25733 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t bitrate = 96000
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t max-input-size = 32768
+08-14 18:04:51.190 21414 25733 D CCodec  :   string mime = "audio/vorbis"
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:51.190 21414 25733 D CCodec  : }
+08-14 18:04:51.190 21414 25733 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t channel-count = 1
+08-14 18:04:51.190 21414 25733 D CCodec  :   string mime = "audio/raw"
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t channel-mask = 1
+08-14 18:04:51.190 21414 25733 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-14 18:04:51.190 21414 25733 D CCodec  : }
+08-14 18:04:51.190 21414 25733 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:04:51.190 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 4
+08-14 18:04:51.191 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 5
+08-14 18:04:51.191 21414 25733 D CCodec  : [video-detector] start
+08-14 18:04:51.191 21414 25733 W Codec2Client: query -- param skipped: index = 1342179345.
+08-14 18:04:51.191 21414 25733 W Codec2Client: query -- param skipped: index = 2415921170.
+08-14 18:04:51.192 21414 25733 D CCodecBufferChannel: [c2.android.vorbis.decoder#158] Created input block pool with allocatorID 16 => poolID 38 - OK (0)
+08-14 18:04:51.194 21414 25733 I CCodecBufferChannel: [c2.android.vorbis.decoder#158] Created output block pool with allocatorID 16 => poolID 868 - OK
+08-14 18:04:51.194 21414 25733 D CCodecBufferChannel: [c2.android.vorbis.decoder#158] Configured output block pool ids 868 => OK
+08-14 18:04:51.198 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 6
+08-14 18:04:51.210 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:51.223 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 9
+08-14 18:04:51.223 21414 25733 D CCodecBufferChannel: [c2.android.vorbis.decoder#158] MediaCodec discarded an unknown buffer
+08-14 18:04:51.223 21414 25733 D CCodecBufferChannel: [c2.android.vorbis.decoder#158] MediaCodec discarded an unknown buffer
+08-14 18:04:51.224 21414 25733 D CCodecBufferChannel: [c2.android.vorbis.decoder#158] MediaCodec discarded an unknown buffer
+08-14 18:04:51.224 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 2
+08-14 18:04:51.225 21414 25730 D MediaCodec: [0xb4000071e8235210] [c2.android.vorbis.decoder] release,in state:2
+08-14 18:04:51.225 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 10
+08-14 18:04:51.227 21414 25733 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-14 18:04:51.228 21414 25733 D MediaCodec: [0xb4000071e8235210] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+08-14 18:04:51.228 21414 25733 D MediaCodec: [0xb4000071e8235210] setState: 0
+08-14 18:04:51.229 21414 25730 D MediaCodec: ~MediaCodec [0xb4000071e8235210]
+08-14 18:04:51.229 21414 25730 D MediaCodec: flushMediametrics
+08-14 18:04:51.780 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:52.474 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+08-14 18:04:52.792 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:53.474 21414 21467 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c5dda8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+08-14 18:04:53.474 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-14 18:04:54.607 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:54.673 21414 21414 I wm_on_top_resumed_lost_called: [147082016,com.termux.app.TermuxActivity,topStateChangedWhenResumed]
+08-14 18:04:56.124 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=9
+08-14 18:04:56.128 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d7c, base=0x0, importpid=21414
+08-14 18:04:56.129 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d7e, base=0x0, importpid=21414
+08-14 18:04:56.130 21414 21432 I mali_gralloc: unregister: id=0x2bb00016d7f, base=0x0, importpid=21414
+08-14 18:04:56.146 21414 21432 I mali_gralloc: register: id=0x2bb00016db5, importpid=-1
+08-14 18:04:56.164 21414 21432 I mali_gralloc: register: id=0x2bb00016db6, importpid=-1
+08-14 18:04:56.181 21414 21424 I mali_gralloc: unregister: id=0x2bb00016d7d, base=0x0, importpid=21414
+08-14 18:04:56.203 21414 21432 I mali_gralloc: register: id=0x2bb00016db8, importpid=-1
+08-14 18:04:56.474 21414 21467 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c6c048 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:04:56.474 21414 21467 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-14 18:04:57.152 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=1 ,mSyncSeqId=1 ,relayoutResult=9
+08-14 18:04:57.154 21414 21432 I mali_gralloc: unregister: id=0x2bb00016db8, base=0x0, importpid=21414
+08-14 18:04:57.159 21414 21432 I mali_gralloc: register: id=0x2bb00016ddb, importpid=-1
+08-14 18:04:57.169 21414 21432 I mali_gralloc: register: id=0x2bb00016ddc, importpid=-1
+08-14 18:04:57.178 21414 21424 I mali_gralloc: unregister: id=0x2bb00016db5, base=0x0, importpid=21414
+08-14 18:04:57.195 21414 21424 I mali_gralloc: unregister: id=0x2bb00016db6, base=0x0, importpid=21414
+08-14 18:04:57.195 21414 21472 I BLASTBufferQueue: [VRI[TermuxActivity]#65](f:0,a:2) unisoc-graphics,#55892 syncNextTransaction, callback not null, last framenumber:(ac:42, ap:42)
+08-14 18:04:57.197 21414 21432 I mali_gralloc: register: id=0x2bb00016dde, importpid=-1
+08-14 18:04:57.236 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=1 ,relayoutResult=8
+08-14 18:04:57.264 21414 21432 I mali_gralloc: register: id=0x2bb00016de5, importpid=-1
+08-14 18:04:57.272 21414 21432 I mali_gralloc: unregister: id=0x2bb00016ddb, base=0x0, importpid=21414
+08-14 18:04:57.276 21414 21432 I mali_gralloc: register: id=0x2bb00016de6, importpid=-1
+08-14 18:04:57.279 21414 21432 I mali_gralloc: unregister: id=0x2bb00016de5, base=0x0, importpid=21414
+08-14 18:04:57.356 21414 21424 I mali_gralloc: unregister: id=0x2bb00016ddc, base=0x0, importpid=21414
+08-14 18:04:57.371 21414 21424 I mali_gralloc: unregister: id=0x2bb00016dde, base=0x0, importpid=21414
+08-14 18:04:58.171 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=1 ,relayoutResult=9
+08-14 18:04:58.183 21414 21432 I mali_gralloc: register: id=0x2bb00016df8, importpid=-1
+08-14 18:04:58.193 21414 21424 I mali_gralloc: unregister: id=0x2bb00016de6, base=0x0, importpid=21414
+08-14 18:04:58.703 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=2 ,mSyncSeqId=2 ,relayoutResult=9
+08-14 18:04:58.712 21414 21432 I mali_gralloc: register: id=0x2bb00016e10, importpid=-1
+08-14 18:04:58.715 21414 21472 I BLASTBufferQueue: [VRI[TermuxActivity]#65](f:0,a:0) unisoc-graphics,#55892 syncNextTransaction, callback not null, last framenumber:(ac:47, ap:47)
+08-14 18:04:59.099 21414 21424 I mali_gralloc: unregister: id=0x2bb00016df8, base=0x0, importpid=21414
+08-14 18:05:02.832 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=2 ,relayoutResult=9
+08-14 18:05:02.836 21414 21432 I mali_gralloc: register: id=0x2bb00016e27, importpid=-1
+08-14 18:05:02.846 21414 21432 I mali_gralloc: register: id=0x2bb00016e28, importpid=-1
+08-14 18:05:02.863 21414 21510 I mali_gralloc: unregister: id=0x2bb00016e10, base=0x0, importpid=21414
+08-14 18:05:04.456 21414 21432 I mali_gralloc: unregister: id=0x2bb00016e27, base=0x0, importpid=21414
+08-14 18:05:04.503 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=2 ,relayoutResult=2
+08-14 18:05:04.506 21414 21414 I mali_gralloc: unregister: id=0x2bb00016e28, base=0x0, importpid=21414
+08-14 18:05:04.515 21414 21414 I wm_on_paused_called: [147082016,com.termux.app.TermuxActivity,performPause]
+08-14 18:05:04.519 21414 21414 D TranFlingManagerImpl: onOverScrollerFinish()
+08-14 18:05:04.519 21414 21414 I wm_on_stop_called: [147082016,com.termux.app.TermuxActivity,STOP_ACTIVITY_ITEM]
+08-14 18:05:04.552 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=2 ,relayoutResult=2
+08-14 18:08:00.675 21414 21414 I wm_on_restart_called: [147082016,com.termux.app.TermuxActivity,performRestartActivity]
+08-14 18:08:00.684 21414 21414 I wm_on_start_called: [147082016,com.termux.app.TermuxActivity,handleStartActivity]
+08-14 18:08:00.686 21414 21414 D TranActivityAppturboImpl: onResumeHork
+08-14 18:08:00.689 21414 21414 I wm_on_resume_called: [147082016,com.termux.app.TermuxActivity,RESUME_ACTIVITY]
+08-14 18:08:00.689 21414 21414 I wm_on_top_resumed_gained_called: [147082016,com.termux.app.TermuxActivity,topWhenResuming]
+08-14 18:08:00.699 21414 26999 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-14 18:08:00.702 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 1
+08-14 18:08:00.703 21414 27002 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-14 18:08:00.704 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=2 ,relayoutResult=3
+08-14 18:08:00.705 21414 27002 I CCodec  : setting up 'default' as default (vendor) store
+08-14 18:08:00.708 21414 27003 I mali_gralloc: register: id=0x2bb00016e91, importpid=-1
+08-14 18:08:00.710 21414 21468 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c5dda8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+08-14 18:08:00.710 21414 21468 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007177c5dda8 cached: 0/0M, 0/0% in use; allocs: 7, 14% recycled; transfers: 24, 75% unfetched
+08-14 18:08:00.710 21414 21468 D BufferPoolAccessor2.0: bufferpool2 0xb400007177c6c048 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-14 18:08:00.710 21414 21468 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007177c6c048 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-14 18:08:00.711 21414 27003 I mali_gralloc: register: id=0x2bb00016e92, importpid=-1
+08-14 18:08:00.712 21414 27002 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-14 18:08:00.712 21414 27002 D CCodecConfig: read media type: audio/vorbis
+08-14 18:08:00.713 21414 27003 I mali_gralloc: register: id=0x2bb00016e93, importpid=-1
+08-14 18:08:00.715 21414 27003 I mali_gralloc: register: id=0x2bb00016e94, importpid=-1
+08-14 18:08:00.716 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-14 18:08:00.719 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-14 18:08:00.720 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-14 18:08:00.720 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-14 18:08:00.720 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-14 18:08:00.720 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-14 18:08:00.721 21414 27002 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-14 18:08:00.722 21414 27002 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:08:00.723 21414 27002 D CCodecConfig: c2 config diff is Dict {
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-14 18:08:00.723 21414 27002 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-14 18:08:00.723 21414 27002 D CCodecConfig: }
+08-14 18:08:00.723 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 2
+08-14 18:08:00.724 21414 27002 D MediaCodec: flushMediametrics
+08-14 18:08:00.724 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 3
+08-14 18:08:00.726 21414 27002 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-14 18:08:00.726 21414 27002 D CCodecConfig: no c2 equivalents for durationUs
+08-14 18:08:00.726 21414 27002 D CCodecConfig: no c2 equivalents for track-id
+08-14 18:08:00.726 21414 27002 D CCodecConfig: no c2 equivalents for csd-1
+08-14 18:08:00.726 21414 27002 D CCodecConfig: no c2 equivalents for flags
+08-14 18:08:00.727 21414 27002 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-14 18:08:00.727 21414 27002 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-14 18:08:00.728 21414 27002 W Codec2Client: query -- param skipped: index = 1107298332.
+08-14 18:08:00.728 21414 27002 D CCodec  : encoding statistics level = 0
+08-14 18:08:00.728 21414 27002 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t bitrate = 96000
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t channel-count = 1
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t max-input-size = 32768
+08-14 18:08:00.728 21414 27002 D CCodec  :   string mime = "audio/vorbis"
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:08:00.728 21414 27002 D CCodec  : }
+08-14 18:08:00.728 21414 27002 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t channel-count = 1
+08-14 18:08:00.728 21414 27002 D CCodec  :   string mime = "audio/raw"
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t sample-rate = 44100
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t channel-mask = 1
+08-14 18:08:00.728 21414 27002 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-14 18:08:00.728 21414 27002 D CCodec  : }
+08-14 18:08:00.728 21414 27002 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-14 18:08:00.728 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 4
+08-14 18:08:00.728 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 5
+08-14 18:08:00.728 21414 27002 D CCodec  : [video-detector] start
+08-14 18:08:00.729 21414 27002 W Codec2Client: query -- param skipped: index = 1342179345.
+08-14 18:08:00.729 21414 27002 W Codec2Client: query -- param skipped: index = 2415921170.
+08-14 18:08:00.730 21414 27002 D CCodecBufferChannel: [c2.android.vorbis.decoder#597] Created input block pool with allocatorID 16 => poolID 39 - OK (0)
+08-14 18:08:00.731 21414 27002 I CCodecBufferChannel: [c2.android.vorbis.decoder#597] Created output block pool with allocatorID 16 => poolID 870 - OK
+08-14 18:08:00.731 21414 27002 D CCodecBufferChannel: [c2.android.vorbis.decoder#597] Configured output block pool ids 870 => OK
+08-14 18:08:00.733 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 6
+08-14 18:08:00.738 21414 21414 D VRI[TermuxActivity]: performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=2 ,relayoutResult=0
+08-14 18:08:00.744 21414 21432 I mali_gralloc: unregister: id=0x2bb00016e92, base=0x0, importpid=21414
+08-14 18:08:00.747 21414 21432 I mali_gralloc: register: id=0x2bb00016e95, importpid=-1
+08-14 18:08:00.756 21414 21510 I mali_gralloc: unregister: id=0x2bb00016e94, base=0x0, importpid=21414
+08-14 18:08:00.758 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 9
+08-14 18:08:00.758 21414 27002 D CCodecBufferChannel: [c2.android.vorbis.decoder#597] MediaCodec discarded an unknown buffer
+08-14 18:08:00.758 21414 27002 D CCodecBufferChannel: [c2.android.vorbis.decoder#597] MediaCodec discarded an unknown buffer
+08-14 18:08:00.759 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 2
+08-14 18:08:00.759 21414 26999 D MediaCodec: [0xb4000071e822b170] [c2.android.vorbis.decoder] release,in state:2
+08-14 18:08:00.759 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 10
+08-14 18:08:00.760 21414 27002 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-14 18:08:00.760 21414 27002 D MediaCodec: [0xb4000071e822b170] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+08-14 18:08:00.760 21414 27002 D MediaCodec: [0xb4000071e822b170] setState: 0
+08-14 18:08:00.761 21414 26999 D MediaCodec: ~MediaCodec [0xb4000071e822b170]
+08-14 18:08:00.761 21414 26999 D MediaCodec: flushMediametrics
+08-14 18:08:00.769 21414 22951 I mali_gralloc: unregister: id=0x2bb00016e93, base=0x0, importpid=21414
+08-14 18:08:00.780 21414 21424 I mali_gralloc: unregister: id=0x2bb00016e91, base=0x0, importpid=21414
+08-14 18:08:00.789 21414 21432 I mali_gralloc: register: id=0x2bb00016e96, importpid=-1
+08-14 18:08:00.986 21414 21414 D InsetsController: show(ime(), fromIme=true)
+08-14 18:08:01.012 21414 21432 I mali_gralloc: register: id=0x2bb00016e9a, importpid=-1
+08-14 18:08:01.030 21414 21432 I mali_gralloc: register: id=0x2bb00016e9b, importpid=-1
